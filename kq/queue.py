@@ -100,7 +100,7 @@ class Queue(object):
     """
 
     def __init__(self,
-                 hosts='127.0.0.1:9092',
+                 hosts='kafka:9092',
                  topic='default',
                  timeout=None,
                  compression=None,
