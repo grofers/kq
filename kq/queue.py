@@ -125,7 +125,8 @@ class Queue(object):
             ssl_cafile=cafile,
             ssl_certfile=certfile,
             ssl_keyfile=keyfile,
-            ssl_crlfile=crlfile
+            ssl_crlfile=crlfile,
+            api_version=(0, 10, 1)
         )
 
     def __repr__(self):
